@@ -27,8 +27,29 @@ while (index < n)
    index++;
 }
 */
-void FillArray
+// void FillArray
 
 
 
-int[] array = new int[10]
+// int[] array = new int[10]
+
+// Дан текст. В тексте нужно все пробелы заменить черточками,
+//  маленькие буквы к заменить большими К , 
+//  а большие С заменить на маленькие с.
+
+// string text = "- Я думаю, - сказал князь, улыбаясь, - что";
+
+// string Replace(string text, char oldValue, char newValue)
+// {
+//     string result = String.Empty;
+//     int Length = text.Length;
+//     for (int i = 0; i < Length; i++)
+//     {
+//         if(text[i] == oldValue) result = result + $"{newValue}";
+//         else result = result + $"{text[i]}";
+//     }
+//     return result;
+
+// }
+// String newText = Replace(text, ' ', '@');
+// Console.WriteLine(newText);
