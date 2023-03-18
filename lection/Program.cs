@@ -53,3 +53,17 @@ while (index < n)
 // }
 // String newText = Replace(text, ' ', '@');
 // Console.WriteLine(newText);
+
+string[,] table = new string[2, 5];
+// String.Empty
+table[1, 2] = "слово";
+
+for(int rows = 0; rows < 2; rows++)
+{
+    for(int columns = 0; columns < 5; columns++)
+    {
+        Console.WriteLine($"-{table[rows, columns]}-");
+    }
+}
+
+int[,] matrix= new int [3]
